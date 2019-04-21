@@ -4,7 +4,7 @@
 <html lang="zh">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GBK">
-<title>疯狂软件</title>
+<title>HR系统</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 <meta content="" name="description" />
 <meta content="" name="author" />
@@ -82,7 +82,7 @@
 <body style="font-family: 微软雅黑">
 	<div class="page-lock">
 		<div class="page-logo" style="margin-bottom: 2px">
-			<a class="brand" href="login.html"
+				<a class="brand"
 				style="font-size: 22px; color: #FFF;"> 人事管理<font color="#FFCC00">Hrm</font><span
 				style="font-size: 13px;">1.0</span> 系统
 			</a>
@@ -125,7 +125,7 @@
 				</div>
 				<div class="relogin">
 						<!-- 单击登录 -->
-						<button type="submit" id="login-submit-btn" class="btn green"
+						<button type="submit" id="login-submit-btn" class="btn red"
 							style="margin-left: 20px">
 							登录 <i class="m-icon-swapright m-icon-white"></i>
 						</button>
