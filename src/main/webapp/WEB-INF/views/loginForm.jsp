@@ -125,7 +125,7 @@
 				</div>
 				<div class="relogin">
 						<!-- 单击登录 -->
-						<button type="submit" id="login-submit-btn" class="btn red"
+						<button type="submit" id="login-submit-btn" class="btn green"
 							style="margin-left: 20px">
 							登录 <i class="m-icon-swapright m-icon-white"></i>
 						</button>

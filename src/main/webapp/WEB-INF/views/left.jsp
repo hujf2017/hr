@@ -93,7 +93,7 @@
 		  </tr>
 		  <tr><td height="2"></td></tr>
 		 
-		  <tr valign="top"><td height="100%" align="center"><div class="copycct"><br /><strong>技术支持：</strong><br><strong>广东为学教育有限公司</strong><br>Http://www.fkjava.org</div></td></tr>
+		  <tr valign="top"><td height="100%" align="center"><div class="copycct"><br /><strong>胡剑峰</strong><br><strong>hujf</strong><br>952405831@qq.com</div></td></tr>
 		  <tr><td height="10"><img src="${ctx}/images/left_nav_bottom.gif" height="10"></img></td></tr>
 		  <tr><td height="10" bgcolor="#e5f0ff">&nbsp;</td></tr>
 		</table>
