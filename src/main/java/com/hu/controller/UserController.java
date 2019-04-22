@@ -99,7 +99,7 @@ public class UserController {
 
 
     @RequestMapping(value = "/user/addUser")
-    public ModelAndView User(String flag,
+    public ModelAndView addUser(String flag,
                                    @ModelAttribute User user,
                                    ModelAndView mv){
         if(flag.equals("1")){
