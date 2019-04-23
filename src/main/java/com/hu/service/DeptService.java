@@ -28,4 +28,6 @@ public interface DeptService {
     void addDept(Dept dept);
 
     void removeDept(Integer id);
+
+    List findAllDept();
 }

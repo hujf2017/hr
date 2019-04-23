@@ -63,4 +63,9 @@ public class DeptServiceImpl implements DeptService {
     public void removeDept(Integer id) {
         deptDao.delete(id);
     }
+
+    @Override
+    public List findAllDept() {
+        return deptDao.selectAll();
+    }
 }

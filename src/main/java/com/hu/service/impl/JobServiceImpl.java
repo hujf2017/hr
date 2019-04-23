@@ -55,4 +55,9 @@ public class JobServiceImpl implements JobService {
     public void addJob(Job job) {
         jobDao.insertJob(job);
     }
+
+    @Override
+    public List findAllJob() {
+      return   jobDao.selectAll();
+    }
 }

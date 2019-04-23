@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 import static com.hu.util.common.HrmConstants.DEPTTABLE;
+import static com.hu.util.common.HrmConstants.JOBTABLE;
 
 /**
  * @Auther: xupc
@@ -38,4 +39,8 @@ public interface DeptDao {
     // 根据id删除部门
     @Delete(" delete from "+DEPTTABLE+" where id = #{id} ")
     void delete(Integer id);
+
+    @Select("select * from "+DEPTTABLE+" ")
+    List<Dept> selectAll();
+
 }

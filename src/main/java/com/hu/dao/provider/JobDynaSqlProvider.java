@@ -75,6 +75,4 @@ public class JobDynaSqlProvider {
             }
         }.toString();
     }
-
-
 }

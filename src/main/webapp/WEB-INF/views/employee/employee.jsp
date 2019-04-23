@@ -116,7 +116,7 @@
 					    			</c:forEach>
 							</select>&nbsp;
 					    	<input type="submit" value="搜索"/>
-					    	<input id="delete" type="button" value="删除"/>
+							<input id="delete" type="button" value="删除"/>
 					    </td>
 					  </tr>
 					</table>

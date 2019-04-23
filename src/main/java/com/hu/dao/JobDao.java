@@ -11,8 +11,7 @@ import org.apache.ibatis.annotations.SelectProvider;
 import java.util.List;
 import java.util.Map;
 
-import static com.hu.util.common.HrmConstants.JOBTABLE;
-import static com.hu.util.common.HrmConstants.USERTABLE;
+import static com.hu.util.common.HrmConstants.*;
 
 /**
  * @Auther: xupc
@@ -38,5 +37,8 @@ public interface JobDao {
 
     @SelectProvider(type= JobDynaSqlProvider.class,method="insertJob")
     void insertJob(Job job);
+
+    @Select("select * from "+JOBTABLE+" ")
+    List <Job> selectAll();
 
 }

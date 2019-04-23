@@ -20,4 +20,6 @@ public interface JobService {
     void removeDept(Integer id);
 
     void addJob(Job job);
+
+    List<Job> findAllJob();
 }
